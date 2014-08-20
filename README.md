@@ -50,13 +50,13 @@ regularly to indicate new official, stable release versions of PLNcoin.
 How to compile plncoind on Debian 7
 -------
 
-apt-get update
-apt-get upgrade
-apt-get install nano mc htop aptitude ntp git build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev libqrencode-dev 
-apt-get install qt4-qmake libqt4-dev build-essential libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libssl-dev libdb++-dev git
-aptitude install miniupnpc libminiupnpc-dev 
-git clone https://github.com/plncoin/plncoin.git  
-cd plncoin/src && make -f makefile.unix
+    apt-get update
+    apt-get upgrade
+    apt-get install nano mc htop aptitude ntp git build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev libqrencode-dev 
+    apt-get install qt4-qmake libqt4-dev build-essential libboost-dev libboost-system-dev libboost-filesystem-dev libboost-program-options-dev libboost-thread-dev libssl-dev libdb++-dev git
+    aptitude install miniupnpc libminiupnpc-dev 
+    git clone https://github.com/plncoin/plncoin.git  
+    cd plncoin/src && make -f makefile.unix
 
 Testing
 -------
